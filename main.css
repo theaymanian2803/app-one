@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  background-color: #0e0e0e;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+form {
+  padding: 20px;
+  display: flex;
+
+  flex-direction: column;
+}
+
+input {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 10px;
+  border: none;
+  color: black;
+  border-left: 5px rgba(0, 128, 0, 0.786) solid;
+  box-shadow: 2px 2px 20px rgba(78, 213, 78, 0.767);
+}
+
+li {
+  list-style: none;
+}
+.btn {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.745);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.green {
+  color: green;
+}
+ul {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+  overflow-y: auto;
+}
+ul::-webkit-scrollbar {
+  background-color: greenyellow;
+  box-shadow: 3px 3px 10px rgba(0, 128, 0, 0.616);
+  width: 3px;
+  border-radius: 10px;
+}
+ul::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 80, 6, 0.759);
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.list i {
+  color: green;
+  cursor: pointer;
+}
+.list button {
+  background: none;
+  border: none;
+}
